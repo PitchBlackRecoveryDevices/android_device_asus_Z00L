@@ -20,8 +20,8 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common PitchBlack stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_NAME := omni_Z00L
 PRODUCT_DEVICE := Z00L
